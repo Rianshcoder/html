@@ -28,8 +28,8 @@
             <button onclick="show()">Show</button>
         </div>
         <script>
-            let div= document.queryselector(".rectangle");
-            function changetToCircle(){
+            let div= document.querySelector(".rectangle");
+            function changeToCircle(){
                 div.style.borderRadius="50%";
             }
               function hide(){
@@ -44,6 +44,6 @@
              div. onmouseleave= function(){
                 div.style.background="transparent";
             }
-            </style>
+            </script>
             </body>
             </html>
