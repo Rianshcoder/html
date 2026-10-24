@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>DOM Manipulation</title>
+        <style>
+            .alert {
+                color: aqua;
+                background: green;
+                padding: 5px;
+            }
+            </style>
+    </head>
+    <body>
+        <h1 id="heading">Welcome</h1>
+        <p>Hello</p>
+        <p>How are you?</p>
+        <script>
+            let div=document.createElement('div');
+            div.id="paragraph"
+            div.className="alert";
+            div.innerHTML="<p>Did you know that our solar system has 8 planets?Mercury is the smallest planet.Venus is the hottest planet.Earth is the only planet with life.Mars is called the red planet.Jupiter is the biggest planet.Saturn is the planet with beautiful rings.Uranus is called the gas giant.And neptune is the planet which is farthest from the sun.</p>";
+            document.body.append(div);
+            let heading=document.getElementById("heading");
+        </script>
+    </body>
+</html>
