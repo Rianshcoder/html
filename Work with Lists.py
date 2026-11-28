@@ -1,0 +1,1 @@
+1st = ('Apple' ,'Banana' ,'Mango' ,'Kiwi' ,'Guava')
